@@ -1,0 +1,20 @@
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+ 
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: wheat;
+}
+.texto-encima{
+    position: absolute;
+    color: white;
+    left: 10px;
+}
