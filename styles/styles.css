@@ -13,8 +13,3 @@
     transform: translate(-50%, -50%);
     color: wheat;
 }
-.texto-encima{
-    position: absolute;
-    color: white;
-    left: 10px;
-}
