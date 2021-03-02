@@ -1,0 +1,27 @@
+.insert_cursor {
+    height: 1.3em;
+    width: 1px;
+    display: inline-block;
+    background: black;
+    vertical-align: bottom;
+    animation: twinkle .5s ease-in-out infinite alternate;
+    -webkit-animation: twinkle .5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes twinkle {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes twinkle {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

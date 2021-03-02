@@ -1,0 +1,67 @@
+body,
+html {
+    height: 100%;
+}
+
+nav .nav-link {
+    font-size: 14px;
+}
+
+.section-about {
+    background-image: url('../assets/images/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+    background-position: center;
+}
+
+.section-about .main-name {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-about .main-name h1 {
+    color: #fff;
+    display: block;
+    font-size: 65px;
+}
+
+.section-about .main-name h3 {
+    display: block;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.section-about .main-name h3 span {
+    font-weight: bold;
+}
+
+.section-desc {
+    margin-top: 470px;
+    margin-bottom: 370px;
+}
+
+.section-desc .row {
+    width: 100%;
+    margin: 0;
+}
+
+.section-desc .row img {
+    max-width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.section-desc .row .col-text {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+}
+
+@media (orientation: portrait) {}
