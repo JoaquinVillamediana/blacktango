@@ -1,0 +1,32 @@
+.container_prj{
+    margin-top: 25%;
+    text-align: center;
+    
+}
+a{
+    color:white;
+    text-decoration:none;
+}
+a:hover{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+    .btn_prj{
+        padding: 15px;
+      background-color: transparent;
+      border: 1px solid #fff;
+    }
+    .btn_prj:hover{
+      
+      border: 5px solid #fff;
+    }
+
+    .customers img{
+    height: 150px;
+    }
+    .customers img:hover{
+      border: 3px solid #828689;
+      height: 200px;
+    }
