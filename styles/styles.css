@@ -136,7 +136,21 @@ nav .nav-link:hover:after {
     text-align: left;
 }
 
-.section-profile {
+.section-services h2 {
+    margin-bottom: 40px;
+}
+
+.section-services .row {
+    justify-content: center;
+}
+
+.section-services .row .card {
+    margin-top: 20px;
+    align-items: center;
+}
+
+.section-profile,
+.section-services {
     text-align: center;
     color: #fff;
     padding-bottom: 150px;
