@@ -1,7 +1,6 @@
-.social-medias {
+/* .social-medias {
     display: flex;
     flex-direction: row;
-   
     align-items: center;
 }
 
@@ -21,50 +20,95 @@
     margin: 0 30px;
 }
 
- .social-medias a.linkedin:hover {
-  background-color: #0E76A8;
-}
-
- .social-medias a.github:hover {
+.social-medias a.linkedin:hover {
     background-color: #0E76A8;
-
 }
 
- .social-medias a.twitter:hover {
+.social-medias a.github:hover {
     background-color: #0E76A8;
-
 }
-.card-header{
+
+.social-medias a.twitter:hover {
+    background-color: #0E76A8;
+}
+
+.card-header {
     background-color: transparent!important;
+}
 
+.card-header button {
+    color: white;
+    text-decoration: none;
 }
-.card-header button{
-    
-color: white;
-text-decoration: none;
-}
-.card-header button:hover{
+
+.card-header button:hover {
     font-weight: bold;
     font-size: 25px;
-color: white;
-text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
-.card{
+
+.card {
     border: none;
-  
     background-color: transparent!important;
 }
-.card-body{
+
+.card-body {
     background-color: transparent!important;
 }
-.container_prj{
+
+.container_prj {
     margin-top: 5%;
-  margin-left: 15%;
-  margin-right: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
 }
-.title{
+
+.title {
     margin-top: 10%;
     margin-left: 15%;
     color: white;
     font-weight: bold;
+} */
+
+.section-about {
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.section-about h1 {
+    padding-top: 40px;
+    color: #fff;
+    text-align: center;
+    display: block;
+}
+
+.section-about p.desc {
+    margin-top: 20px;
+    color: #fff;
+    font-size: 22px;
+}
+
+.section-episodes h2.title {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.section-episodes iframe {
+    margin: 20px 0;
+}
+
+@media (orientation: portrait) {
+    .section-about h1 {
+        font-size: 26px;
+    }
+    .section-about p.desc {
+        font-size: 16px;
+    }
+    .section-episodes h2.title {
+        font-size: 20px;
+    }
+    .section-episodes iframe {
+        margin: 0;
+        margin-top: 10px;
+    }
 }
