@@ -1,23 +1,21 @@
-.container_prj{
-    margin-top: 25%;
-    text-align: center;
-    
+html,
+body {
+    height: 100%;
 }
-a{
-    color:white;
-    text-decoration:none;
+
+body {
+    height: calc(100% - 75px);
 }
-a:hover{
-    color:white;
-    font-size: 20px;
-    font-weight: bold;
+
+.section-projects {
+    margin-top: 70px;
+    min-height: calc(100% - 75px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-    .btn_prj{
-        padding: 15px;
-      background-color: transparent;
-      border: 1px solid #fff;
-    }
-    .btn_prj:hover{
-      
-      border: 5px solid #fff;
-    }
+
+.section-projects .swiper-slide .prj-bg {
+    height: 500px;
+    background-color: #757575;
+}
