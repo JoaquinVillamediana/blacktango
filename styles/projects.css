@@ -4,22 +4,25 @@ body {
 }
 
 body {
-    height: calc(100% - 75px);
+    height: calc(100% - 75px - 152px);
 }
 
 .section-projects {
     margin-top: 70px;
-    min-height: calc(100% - 75px);
+    min-height: calc(100% - 75px - 152px);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.section-projects .container.medium {
+    max-width: 1000px !important;
+}
+
 .section-projects .swiper-slide .prj-bg {
-    height: 500px;
     background-color: #757575;
 }
-.prueba{
-    height: 500px;
-    width: auto;
+
+.project {
+    width: 100%;
 }
