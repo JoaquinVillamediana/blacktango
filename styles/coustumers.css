@@ -30,3 +30,20 @@ a:hover{
       border: 3px solid #828689;
       height: 200px;
     }
+
+    .section-projects {
+      margin-top: 70px;
+      min-height: calc(100% - 75px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .section-projects .swiper-slide .prj-bg {
+    height: 500px;
+    background-color: #757575;
+}
+.prueba {
+  height: auto;
+
+}
